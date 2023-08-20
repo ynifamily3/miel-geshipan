@@ -83,6 +83,9 @@ class LoginWidget extends StatelessWidget {
                         ),
                       ),
                     ),
+                    const SizedBox(
+                      height: 8,
+                    ),
                     SizedBox(
                       width: 240,
                       child: ElevatedButton.icon(
@@ -104,6 +107,9 @@ class LoginWidget extends StatelessWidget {
                           ),
                         ),
                       ),
+                    ),
+                    const SizedBox(
+                      height: 8,
                     ),
                     SizedBox(
                       width: 240,

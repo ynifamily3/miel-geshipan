@@ -19,6 +19,7 @@ class MainApp extends StatelessWidget {
     // whenever your initialization is completed, remove the splash screen:
     // FlutterNativeSplash.remove();
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
       ),
